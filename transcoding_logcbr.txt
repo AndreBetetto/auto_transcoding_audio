@@ -1,0 +1,11 @@
+/home/andre/Music/rips/test/03-Jardins da Babilônia.flac
+
+ 44100
+ 16-bit
+FLAC
+320kbps
+
+ 44100
+FLAC -> MP3_CBR
+ffmpeg -i input.flac -f wav - | lame -b 320 - output.mp3
+====================

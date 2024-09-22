@@ -1,0 +1,10 @@
+[package]
+name = "transcodetools"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ffmpeg-next = "7.0.4"
+id3 = "1.14.0"
+lame = "0.1.3"
+log = "0.4.22"
